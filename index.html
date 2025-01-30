@@ -1,0 +1,95 @@
+<!--b. Write a HTML program, to explain the working of tables by preparing a timetable. (Note:
+Use <caption> tag to set the caption to the table & also use cell spacing, cell padding, border,
+rowspan, colspan etc.).-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSE-B Time Table</title>
+</head>
+<body>
+    
+    <table border="1" style="text-align: center;" cellspacing = "0">
+        <caption>CSE-B Time Table</caption>
+        <tr>
+            <th rowspan="2">DAY</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+        </tr>
+        <tr>
+            <td>9:30-10:20</td>
+            <td>10:20-11:10</td>
+            <td>11:10-12:00</td>
+            <td>12:00-12:50</td>
+            <td>12:50-1:50</td>
+            <td>1:50-2:40</td>
+            <td>2:40-3:30</td>
+            <td>3:30-4:20</td>
+        </tr>
+        <tr>
+            <td>MONDAY</td>
+            <td>DBMS</td>
+            <td>P&S</td>
+            <td>OS</td>
+            <td>SE</td>
+            <td>LUNCH</td>
+            <td colspan="3">OS LAB</td>
+        </tr>
+
+        <tr>
+            <td>TUESDAY</td>
+            <td colspan="3">DT&I</td>
+            <td>LUNCH</td>
+            <td>SE</td>
+            <td>MEFA</td>
+            <td>P&S</td>
+            <td>-</td>
+        </tr>
+
+        <tr>
+            <td>WEDNESDAY</td>
+            <td>P&S</td>
+            <td colspan="2">PSA</td>
+            <td>LUNCH</td>
+            <td colspan="3">ENG LAB</td>
+            <td>-</td>
+        </tr>
+
+        <tr>
+            <td>THURSDAY</td>
+            <td colspan="4">FSD LAB</td>
+            <td>LUNCH</td>
+            <td>DBMS</td>
+            <td>SE</td>
+            <td>OS</td>
+        </tr>
+
+        <tr>
+            <td>FRIDAY</td>
+            <td colspan="3">DBMS LAB</td>
+            <td>LUNCH</td>
+            <td>SE</td>
+            <td>OS</td>
+            <td>MEFA</td>
+            <td>DBMS</td>
+        </tr>
+
+        <tr>
+            <td>SATURDAY</td>
+            <td>OS</td>
+            <td>DBMS</td>
+            <td>P&S</td>
+            <td>LUNCH</td>
+            <td>MEFA</td>
+            <td colspan="3">CODING LAB</td>
+        </tr>
+      
+    </table>
+</body>
+</html>
